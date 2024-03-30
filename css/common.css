@@ -16,6 +16,12 @@ html, body {
 	font-family:'Pretendard'
 }
 
+@media screen and (max-width: 1840px) {
+	html, body {
+		font-size:15px;
+	}
+}
+
 body, input, select, textarea, button {
 	line-height:1;
 }
@@ -78,7 +84,7 @@ button {
 
 /*layout */
 .wrapper {
-	min-width:1790px;
+	min-width:1440px;
 }
 
 .hidden, caption, legend, .blind {
