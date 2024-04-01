@@ -3,7 +3,12 @@ var slideNav = ['About', 'Works', 'Work1', 'Work2', 'Work3',];
 
 var swiper = new Swiper('.main-swiper', {
     speed:500,
+    loop: false,
     mousewheel: true,
+    navigation: {
+        nextEl: '.main-button-next',
+        prevEl: '.main-button-prev'
+    },
     pagination: {
         el: '.main-pagination',
         clickable: true,
