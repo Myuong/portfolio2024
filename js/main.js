@@ -70,3 +70,4 @@ $('.pagination3').click(function(){
 $('.totop_wrap').click(function(){
     $('html,body').animate({scrollTop : 0})
 })
+

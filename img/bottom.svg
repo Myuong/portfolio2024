@@ -1,0 +1,38 @@
+<svg width="812" height="119" viewBox="0 0 812 119" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g opacity="0.5" filter="url(#filter0_f_458_399)">
+<ellipse cx="406" cy="59.5" rx="362" ry="15.5" fill="black"/>
+</g>
+<path d="M2 30.3274C2 29.2228 2.89543 28.3274 4 28.3274H807C808.105 28.3274 809 29.2228 809 30.3274V33.131H2V30.3274Z" fill="#A3ACB1"/>
+<path d="M2 30.3274C2 29.2228 2.89543 28.3274 4 28.3274H807C808.105 28.3274 809 29.2228 809 30.3274V33.131H2V30.3274Z" fill="url(#paint0_linear_458_399)"/>
+<path d="M2 33.131H809L800.51 34.8432C774.478 40.0934 747.987 42.7381 721.43 42.7381H89.141C59.9561 42.7381 30.4899 39.4621 2 33.131Z" fill="#6E7274"/>
+<path d="M2 33.131H809L800.51 34.8432C774.478 40.0934 747.987 42.7381 721.43 42.7381H89.141C59.9561 42.7381 30.4899 39.4621 2 33.131Z" fill="url(#paint1_linear_458_399)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M346.282 28.3274C346.694 31.0099 344.696 33.131 351.059 33.131H460.741C467.104 33.131 465.106 31.0099 465.518 28.3274H346.282Z" fill="#96A1A8"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M346.282 28.3274C346.694 31.0099 344.696 33.131 351.059 33.131H460.741C467.104 33.131 465.106 31.0099 465.518 28.3274H346.282Z" fill="url(#paint2_linear_458_399)"/>
+<defs>
+<filter id="filter0_f_458_399" x="0" y="0" width="812" height="119" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="22" result="effect1_foregroundBlur_458_399"/>
+</filter>
+<linearGradient id="paint0_linear_458_399" x1="2" y1="30.7292" x2="809" y2="30.7292" gradientUnits="userSpaceOnUse">
+<stop stop-color="#0D1012"/>
+<stop offset="0.0295345" stop-color="#CAD4DB"/>
+<stop offset="0.0625" stop-color="#242729"/>
+<stop offset="0.133609" stop-color="#A3ACB1"/>
+<stop offset="0.865967" stop-color="#A3ACB1"/>
+<stop offset="0.941937" stop-color="#242729"/>
+<stop offset="0.971275" stop-color="#CAD4DB"/>
+<stop offset="0.996436" stop-color="#0D1012"/>
+</linearGradient>
+<linearGradient id="paint1_linear_458_399" x1="405.5" y1="33.131" x2="405.5" y2="42.7381" gradientUnits="userSpaceOnUse">
+<stop stop-color="#7A7F83"/>
+<stop offset="1" stop-color="#0B0B0E"/>
+</linearGradient>
+<linearGradient id="paint2_linear_458_399" x1="352.26" y1="31.2439" x2="461.942" y2="31.2439" gradientUnits="userSpaceOnUse">
+<stop stop-color="#3C3C3C"/>
+<stop offset="0.317518" stop-color="#3C3C3C" stop-opacity="0"/>
+<stop offset="0.660584" stop-color="#3C3C3C" stop-opacity="0"/>
+<stop offset="1" stop-color="#444444"/>
+</linearGradient>
+</defs>
+</svg>

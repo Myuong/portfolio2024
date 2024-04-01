@@ -52,6 +52,7 @@ CONTAINER
     justify-content:space-between;
     width:40%;
     max-width:687px;
+    height:calc(100% - 40px);
     padding-left:40px;
     margin-bottom:40px;
 }
@@ -263,29 +264,35 @@ CONTAINER
 }
 
 .history-pagination div:nth-child(1) {
-    top:146px;
-    left:344px;
+    bottom:36%;
+    right:8%;
 }
 
 .history-pagination div:nth-child(2) {
-    top:230px;
-    left:716px;
+    bottom:23%;
+    right:22%;
 }
 
 .history-pagination div:nth-child(3) {
-    top:371px;
-    left:278px;
+    top:38%;
+    right:23%;
 }
 
 .history-pagination div:nth-child(4) {
-    top:558px;
-    left:494px;
+    top:22%;
+    left:41%;
 }
 
 .history-pagination div:nth-child(5) {
-    top:484px;
-    right:-81px;
+    bottom:35%;
+    left:24%;
 }
+
+.history-pagination div:nth-child(6) {
+    top:33%;
+    left:15%;
+}
+
 
 .main_title_wrap {
     position:relative;
@@ -347,32 +354,39 @@ CONTAINER
 }
 
 .about_content_wrap {
+    position:relative;
     width:100%;
+    height:calc(100% - 40px);
+    min-height:617px;
+    max-height:816px;
     display:flex;
     padding-right:40px;
 }
 
 .about_content {
-    position:relative;
     width:100%;
     max-width:1030px;
-    min-height:617px;
-    max-height:816px;
-    margin-bottom:40px;
     border-radius:50px 0px 50px 50px;
     background-color:#f5f5f5;
 }
 
-.content_bg_wrap svg {
+.content_bg_wrap {
     position:absolute;
     top:50%;
     transform:translateY(-50%);
-    left:60px;
+    right:2%;
     z-index:1;
 }
 
-.content_bg_wrap svg.spiral_svg {
-    left:110px;
+.content_bg_wrap svg {
+    width:100%;
+}
+
+.content_bg_wrap svg.arrow_svg {
+    position:absolute;
+    top:50%;
+    right:0px;
+    width:110%;
 }
 
 .spiral_svg {
@@ -421,18 +435,17 @@ CONTAINER
 }
 
 .about_right {
-    position:relative;
     display:flex;
     flex-direction:column;
+    justify-content:space-between;
     width:100%;
     max-width:160px;
-    height:100%;
 }
 
 .about_right .right_bg_wrap {
     position:relative;
     width:100%;
-    height:calc(95% - 160px);
+    height:calc(100% - 160px);
     max-height:655px;
     min-height:464px;
     border-radius:0px 50px 50px 0px;
@@ -466,14 +479,14 @@ CONTAINER
 }
 
 .scroll_wrap {
-    position:absolute;
-    bottom:39px;
-    right:0;
+    position:relative;
     display:flex;
     align-items:center;
     justify-content:center;
     width:159px;
     height:159px;
+    background-color:#000;
+    z-index:2;
 }
 
 .scroll_wrap .scroll_arrow {
@@ -492,7 +505,7 @@ CONTAINER
     right:0px;
     width:100%;
     height:65px;
-    padding-right:125px;
+    padding-right:129px;
 }
 
 .main-pagination .swiper-pagination-bullet {
@@ -548,44 +561,53 @@ works
     position:relative;
     width:58%;
     max-width:1105px;
+    height:calc(100% - 40px);
     max-height:816px;
+    min-height:620px;
     border-radius:50px;
     margin-left:40px;
     background-color:#f5f5f5;
 }
 
 .device_image_wrap {
-    position:absolute;
-    top:calc(50% - 280px);
-    left:50%;
-    width:812px;
-    height:531px;
-    transform:translateX(-50%);
-    background:url(../img/device.png) no-repeat center center / cover;
+    position:relative;
+    width:77%;
+    max-width:812px;
+    height:68%;
+    margin:2% auto;
 }
 
 .screen_wrap {
-    position:relative;
-    width:100%;
-    height:100%;
-}
-
-.screen {
     position:absolute;
-    top:22px;
+    bottom:0%;
     left:50%;
     transform:translateX(-50%);
-    width:609px;
-    height:382px;
+    width:78%;
+    height:78%;
+    max-width:609px;
+    min-width:410px;
     overflow:hidden;
+    border-width:20px 20px 30px 20px;
+    border-color:#1f2125;
+    border-style:solid;
+    border-radius:15px 15px 0 0;
+}
+
+.device_bt {
+    width:100%;
+    position:absolute;
+    bottom:calc(0% - 16%);
+    left:50%;
+    transform:translateX(-50%);
 }
 
 .screen img {
     position:absolute;
     top:0px;
-    left:calc(50% - 438px);
-    animation-duration:7s;
-    animation-delay:1s;
+    left:calc(50% - 50%);
+    width:100%;
+    animation-duration:5s;
+    animation-delay:1.5s;
     animation-timing-function:ease-in-out;
     animation-iteration-count:infinite;
     animation-fill-mode:forwards;
@@ -607,22 +629,22 @@ works
         transform:translateY(0);
     }
     25% {
-        transform:translateY(-537px);
+        transform:translateY(-30%);
     }
     30% {
-        transform:translateY(-537px);
+        transform:translateY(-30%);
     }
     50% {
-        transform:translateY(-1079px);
+        transform:translateY(-60%);
     }
     55% {
-        transform:translateY(-1079px);
+        transform:translateY(-60%);
     }
     75% {
-        transform:translateY(-1381px);
+        transform:translateY(-76%);
     }
     80% {
-        transform:translateY(-1381px);
+        transform:translateY(-76%);
     }
     100%{
         transform:translateY(0);
@@ -631,11 +653,13 @@ works
 
 .work_link_wrap {
     position:absolute;
-    top:calc(50% - 280px);
+    top:calc(50% - 38%);
     left:50%;
-    width:925px;
-    height:515px;
     transform:translateX(-50%);
+    max-width:925px;
+    width:90%;
+    max-height:515px;
+    height:63%;
     z-index:2;
 }
 
@@ -652,13 +676,13 @@ works
 }
 
 .work_link.link1 {
-    top:60px;
-    left:50px;
+    top:17%;
+    left:4%;
 }
 
 .work_link.link2 {
-    bottom:187px;
-    right:50px;
+    bottom:32%;
+    right:6%;
 }
 
 .link_mark {
@@ -706,7 +730,7 @@ works
     height:42px;
     line-height:42px;
     padding:0px 16px;
-    font-size:17px;
+    font-size:1rem;
     font-weight:500;
     border-radius:30px;
     border:1px solid #000;
@@ -734,7 +758,7 @@ works
 }
 
 .caption span {
-    font-size:15px;
+    font-size:0.925rem;
     padding:8px 16px;
     color:#666;
     border-radius:30px;
@@ -743,13 +767,15 @@ works
 
 .works_info_wrap {
     width:42%;
+    height:calc(100% - 40px);
     margin-right:40px;
 }
 
 .info_title_area {
     width:100%;
-    height:63%;
     max-width:769px;
+    height:65%;
+    min-height:400px;
     max-height:530px;
     padding:64px;
     border-radius:0px 50px 0px 0px;
@@ -767,7 +793,7 @@ works
 }
 
 .info_title {
-    font-size:52px;
+    font-size:2.8rem;
     font-weight:bold;
     line-height:1.3;
     margin-top:10px;
@@ -782,14 +808,20 @@ works
 
 .info_bottom_area {
     display:flex;
-    height:285px;
+    height:35%;
+    max-height:285px;
+    min-height:221px;
+}
+
+.bottom_info_left,
+.bottom_info_right {
+    padding:64px;
 }
 
 .bottom_info_left {
     width:37%;
     max-width:285px;
     height:100%;
-    padding:64px;
     border-radius:0px 50px 50px 50px;
     background-color:#e7e7e7;
 }
@@ -798,17 +830,12 @@ works
     height:63%;
     width:485px;
     height:100%;
-    padding:64px;
     border-radius:0px 0px 50px 50px;
     background-color:#f5f5f5;
 }
 
-.info_bottom_area dl {
-    
-}
-
 .info_bottom_area dl dt {
-    font-size:15px;
+    font-size:0.925rem;
     color:#666;
     margin-bottom:16px;
 }
@@ -818,6 +845,7 @@ works
 }
 
 .info_bottom_area dl dd {
+    font-size:1rem;
     font-weight:400;
 }
 

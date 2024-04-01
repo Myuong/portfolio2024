@@ -79,6 +79,7 @@ button {
 /*layout */
 .wrapper {
 	min-width:1440px;
+	overflow:hidden;
 }
 
 .hidden, caption, legend, .blind {

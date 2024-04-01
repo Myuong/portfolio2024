@@ -5,12 +5,11 @@
 		font-size:15px;
 	}
 
-    .about_left {
+    .about_left,
+    .about_content_wrap,
+    .work_screen_area,
+    .works_info_wrap {
         padding-left:20px;
-    }
-
-    .about_content_wrap {
-        padding-right:20px;
     }
 
     .main_title_wrap {
@@ -44,8 +43,29 @@
         width:90px;
     }
 
+    .swiper-slide.history {
+        padding:32px;
+    }
+
+    .main-swiper > .swiper-pagination-bullets.main-pagination {
+        padding-right:122px;
+    }
+
     .history-pagination .swiper-pagination-bullet .tab_title {
         height:38px;
         line-height:38px;
+    }
+
+    .content_bg_wrap {
+        left:15%;
+    }
+
+    .info_title_area {
+        padding:40px
+    }
+
+    .bottom_info_left,
+    .bottom_info_right {
+        padding:40px;   
     }
 }
