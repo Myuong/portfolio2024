@@ -66,13 +66,6 @@ $('.work_link_wrap').mouseout(function(){
     $(this).siblings('.device_image_wrap, .phone_device_image_wrap').find('.screen').removeClass('screen_stop');
 });
 
-var swiper3 = new Swiper('.work_swiper_container', {
-    autoplay:1000,
-    direction:'horizontal',
-    loop:true,
-    autoplayDisableOnInteraction:false,
-});
-
  //nav contact 클릭시 아래로
 $('.pagination3').click(function(){
     $("html, body").animate({ scrollTop: $(document).height() },1000,'swing');
