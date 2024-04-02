@@ -25,7 +25,7 @@ CONTAINER
 .container {
     position:relative;
     height:calc(100vh - 40px);
-    min-height:1440px;
+    min-height:1300px;
     width:100%;
     min-width:1440px;
     max-width:1920px;
@@ -599,11 +599,11 @@ CONTAINER
 }
 
 .main-button-next img {
-    transform:translateX(-23px);
+    transform:translateX(-21px);
 }
 
 .main-button-next:hover img {
-    transform:translateX(9px);
+    transform:translateX(13px);
 }
 
 .main-button-prev::after {
@@ -617,7 +617,7 @@ CONTAINER
 }
 
 .main-button-prev img {
-    transform:translateX(23px) rotate(180deg);
+    transform:translateX(21px) rotate(180deg);
 }
 
 .main-button-prev:hover img {
