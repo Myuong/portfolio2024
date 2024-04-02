@@ -77,4 +77,36 @@
         padding:40px
     }
 
+    .bottom_info_left, .bottom_info_right {
+        padding:40px;
+    }
+
+    .screen_wrap {
+        height:360px;
+    }
+
+    .device_bt {
+        bottom:-62px;
+    }
+
+    .work_link_wrap {
+        top:calc(50% - 24%);
+        height:405px;
+    }
+
+    .work_link_wrap.phone {
+        height:436px;
+    }
+
+    .phone_device_image_wrap {
+        height:436px;
+    }
+
+    .device_iphone {
+        height:436px;
+    }
+
+    .caption {
+        bottom:60px;
+    }
 }

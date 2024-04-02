@@ -58,12 +58,19 @@ var swiper2 = new Swiper('.history-swiper', {
 //링크 확인
 $('.work_link_wrap').mouseover(function(){
     $(this).children('.work_link').addClass('show');
-    $(this).siblings('.device_image_wrap').find('.screen').addClass('screen_stop');
+    $(this).siblings('.device_image_wrap, .phone_device_image_wrap').find('.screen').addClass('screen_stop');
 });
 
 $('.work_link_wrap').mouseout(function(){
     $(this).children('.work_link').removeClass('show');
-    $(this).siblings('.device_image_wrap').find('.screen').removeClass('screen_stop');
+    $(this).siblings('.device_image_wrap, .phone_device_image_wrap').find('.screen').removeClass('screen_stop');
+});
+
+var swiper3 = new Swiper('.work_swiper_container', {
+    autoplay:1000,
+    direction:'horizontal',
+    loop:true,
+    autoplayDisableOnInteraction:false,
 });
 
  //nav contact 클릭시 아래로
