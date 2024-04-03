@@ -76,3 +76,7 @@ $('.totop_wrap').click(function(){
     $('html,body').animate({scrollTop : 0})
 })
 
+//모바일 창 오픈시
+function winOpen(){
+    window.open('https://m.xn--vj4b21h05b.com/','popup','width=500,height=960');
+}

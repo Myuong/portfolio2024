@@ -278,7 +278,7 @@ CONTAINER
 
 .history-pagination div:nth-child(3) {
     top:38%;
-    right:23%;
+    right:24%;
 }
 
 .history-pagination div:nth-child(4) {
@@ -826,7 +826,7 @@ works
     transform:translate(-50%, -57%);
     width:27%;
     max-width:285px;
-    height:69%;
+    height:71%;
     min-height:436px;
 }
 

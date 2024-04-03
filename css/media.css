@@ -109,4 +109,8 @@
     .caption {
         bottom:60px;
     }
+
+    .main_navi_wrap {
+        padding:0 60px;
+    }
 }
