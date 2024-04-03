@@ -81,6 +81,10 @@
         padding:40px;
     }
 
+    .device_image_wrap {
+        margin:5% auto;
+    }
+
     .screen_wrap {
         height:360px;
     }
