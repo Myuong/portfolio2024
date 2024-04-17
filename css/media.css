@@ -95,6 +95,7 @@
 
     .work_link_wrap {
         height:405px;
+        top:calc(50% - 200px);
     }
 
     .work_link_wrap.phone {
