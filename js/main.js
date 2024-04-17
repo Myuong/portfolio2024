@@ -5,7 +5,7 @@ var swiper = new Swiper('.main-swiper', {
     speed:500,
     loop: false,
     mousewheel: true,
-    allowTouchMove: false,
+    draggable: false,
     navigation: {
         nextEl: '.main-button-next',
         prevEl: '.main-button-prev'
@@ -42,7 +42,7 @@ var slidetab = [
 var swiper2 = new Swiper('.history-swiper', {
     speed: 500,
     loop: true,
-    allowTouchMove: false,
+    draggable: false,
     navigation: {
         nextEl: '.history-button-next'
     },
