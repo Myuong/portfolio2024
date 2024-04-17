@@ -5,7 +5,6 @@ var swiper = new Swiper('.main-swiper', {
     speed:500,
     loop: false,
     mousewheel: true,
-    touchRatio: 0,
     navigation: {
         nextEl: '.main-button-next',
         prevEl: '.main-button-prev'
